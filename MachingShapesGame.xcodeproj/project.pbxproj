@@ -7,31 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA184029288D964E00217129 /* MatchShadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA184028288D964E00217129 /* MatchShadowViewController.swift */; };
+		BA18402B288E150B00217129 /* DoesntBelongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA18402A288E150A00217129 /* DoesntBelongViewController.swift */; };
+		BA18402D288EC55C00217129 /* MazeGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA18402C288EC55C00217129 /* MazeGameViewController.swift */; };
+		BA184031288F0B4D00217129 /* MazeScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA184030288F0B4D00217129 /* MazeScene.sks */; };
+		BA184033288F0C8100217129 /* MazeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA184032288F0C8100217129 /* MazeScene.swift */; };
+		BA18403528918BB400217129 /* WhosMissingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA18403428918BB400217129 /* WhosMissingViewController.swift */; };
+		BA184037289193BE00217129 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA184036289193BE00217129 /* Challenge.swift */; };
 		BA3DA73828834DB60000A4FD /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DA73728834DB60000A4FD /* Product.swift */; };
-		BA3DA73A2884A5A90000A4FD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DA7392884A5A90000A4FD /* Data.swift */; };
+		BA3DA73A2884A5A90000A4FD /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DA7392884A5A90000A4FD /* DataService.swift */; };
 		BA3DA73C2884E9D00000A4FD /* FruitsVegetablesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DA73B2884E9D00000A4FD /* FruitsVegetablesView.swift */; };
+		BA3DA73E2885AB8C0000A4FD /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DA73D2885AB8C0000A4FD /* GamesViewController.swift */; };
+		BA3DA7402885AF460000A4FD /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DA73F2885AF460000A4FD /* GameCell.swift */; };
+		BA3DA7422885B37D0000A4FD /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DA7412885B37D0000A4FD /* Game.swift */; };
 		BA8208902880ADDA006B44D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82088F2880ADDA006B44D8 /* AppDelegate.swift */; };
 		BA8208922880ADDA006B44D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8208912880ADDA006B44D8 /* SceneDelegate.swift */; };
-		BA8208942880ADDA006B44D8 /* FruitsVegetablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8208932880ADDA006B44D8 /* FruitsVegetablesViewController.swift */; };
+		BA8208942880ADDA006B44D8 /* SortFruitsVegetablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8208932880ADDA006B44D8 /* SortFruitsVegetablesViewController.swift */; };
 		BA8208972880ADDA006B44D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8208952880ADDA006B44D8 /* Main.storyboard */; };
 		BA8208992880ADE0006B44D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8208982880ADE0006B44D8 /* Assets.xcassets */; };
 		BA82089C2880ADE0006B44D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA82089A2880ADE0006B44D8 /* LaunchScreen.storyboard */; };
 		BA8208A42882E520006B44D8 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8208A32882E51F006B44D8 /* Constant.swift */; };
+		BAA59DC428873F2100CD3CA9 /* SortColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA59DC328873F2100CD3CA9 /* SortColorsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA184028288D964E00217129 /* MatchShadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchShadowViewController.swift; sourceTree = "<group>"; };
+		BA18402A288E150A00217129 /* DoesntBelongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoesntBelongViewController.swift; sourceTree = "<group>"; };
+		BA18402C288EC55C00217129 /* MazeGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeGameViewController.swift; sourceTree = "<group>"; };
+		BA184030288F0B4D00217129 /* MazeScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MazeScene.sks; sourceTree = "<group>"; };
+		BA184032288F0C8100217129 /* MazeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeScene.swift; sourceTree = "<group>"; };
+		BA18403428918BB400217129 /* WhosMissingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosMissingViewController.swift; sourceTree = "<group>"; };
+		BA184036289193BE00217129 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
 		BA3DA73728834DB60000A4FD /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		BA3DA7392884A5A90000A4FD /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		BA3DA7392884A5A90000A4FD /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		BA3DA73B2884E9D00000A4FD /* FruitsVegetablesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsVegetablesView.swift; sourceTree = "<group>"; };
+		BA3DA73D2885AB8C0000A4FD /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
+		BA3DA73F2885AF460000A4FD /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		BA3DA7412885B37D0000A4FD /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		BA82088C2880ADDA006B44D8 /* MachingShapesGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MachingShapesGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA82088F2880ADDA006B44D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA8208912880ADDA006B44D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA8208932880ADDA006B44D8 /* FruitsVegetablesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsVegetablesViewController.swift; sourceTree = "<group>"; };
+		BA8208932880ADDA006B44D8 /* SortFruitsVegetablesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortFruitsVegetablesViewController.swift; sourceTree = "<group>"; };
 		BA8208962880ADDA006B44D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA8208982880ADE0006B44D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA82089B2880ADE0006B44D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA82089D2880ADE0006B44D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA8208A32882E51F006B44D8 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BAA59DC328873F2100CD3CA9 /* SortColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortColorsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +67,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA4E026B288AF2A800D34DCE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA3DA73D2885AB8C0000A4FD /* GamesViewController.swift */,
+				BA8208932880ADDA006B44D8 /* SortFruitsVegetablesViewController.swift */,
+				BAA59DC328873F2100CD3CA9 /* SortColorsViewController.swift */,
+				BA184028288D964E00217129 /* MatchShadowViewController.swift */,
+				BA18402C288EC55C00217129 /* MazeGameViewController.swift */,
+				BA184032288F0C8100217129 /* MazeScene.swift */,
+				BA184030288F0B4D00217129 /* MazeScene.sks */,
+				BA18403428918BB400217129 /* WhosMissingViewController.swift */,
+				BA18402A288E150A00217129 /* DoesntBelongViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BA4E026C288AF30700D34DCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA8208A32882E51F006B44D8 /* Constant.swift */,
+				BA3DA7392884A5A90000A4FD /* DataService.swift */,
+				BA3DA7412885B37D0000A4FD /* Game.swift */,
+				BA3DA73728834DB60000A4FD /* Product.swift */,
+				BA184036289193BE00217129 /* Challenge.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA4E026D288AF34000D34DCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA3DA73F2885AF460000A4FD /* GameCell.swift */,
+				BA3DA73B2884E9D00000A4FD /* FruitsVegetablesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		BA8208832880ADDA006B44D8 = {
 			isa = PBXGroup;
 			children = (
@@ -64,13 +123,11 @@
 		BA82088E2880ADDA006B44D8 /* MachingShapesGame */ = {
 			isa = PBXGroup;
 			children = (
+				BA4E026D288AF34000D34DCE /* View */,
+				BA4E026C288AF30700D34DCE /* Model */,
+				BA4E026B288AF2A800D34DCE /* ViewController */,
 				BA82088F2880ADDA006B44D8 /* AppDelegate.swift */,
 				BA8208912880ADDA006B44D8 /* SceneDelegate.swift */,
-				BA3DA73B2884E9D00000A4FD /* FruitsVegetablesView.swift */,
-				BA8208A32882E51F006B44D8 /* Constant.swift */,
-				BA8208932880ADDA006B44D8 /* FruitsVegetablesViewController.swift */,
-				BA3DA7392884A5A90000A4FD /* Data.swift */,
-				BA3DA73728834DB60000A4FD /* Product.swift */,
 				BA8208952880ADDA006B44D8 /* Main.storyboard */,
 				BA8208982880ADE0006B44D8 /* Assets.xcassets */,
 				BA82089A2880ADE0006B44D8 /* LaunchScreen.storyboard */,
@@ -139,6 +196,7 @@
 			files = (
 				BA82089C2880ADE0006B44D8 /* LaunchScreen.storyboard in Resources */,
 				BA8208992880ADE0006B44D8 /* Assets.xcassets in Resources */,
+				BA184031288F0B4D00217129 /* MazeScene.sks in Resources */,
 				BA8208972880ADDA006B44D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,8 +208,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA8208942880ADDA006B44D8 /* FruitsVegetablesViewController.swift in Sources */,
-				BA3DA73A2884A5A90000A4FD /* Data.swift in Sources */,
+				BA184029288D964E00217129 /* MatchShadowViewController.swift in Sources */,
+				BA3DA73E2885AB8C0000A4FD /* GamesViewController.swift in Sources */,
+				BA3DA7422885B37D0000A4FD /* Game.swift in Sources */,
+				BA8208942880ADDA006B44D8 /* SortFruitsVegetablesViewController.swift in Sources */,
+				BA184037289193BE00217129 /* Challenge.swift in Sources */,
+				BA18403528918BB400217129 /* WhosMissingViewController.swift in Sources */,
+				BA18402B288E150B00217129 /* DoesntBelongViewController.swift in Sources */,
+				BA18402D288EC55C00217129 /* MazeGameViewController.swift in Sources */,
+				BA184033288F0C8100217129 /* MazeScene.swift in Sources */,
+				BA3DA7402885AF460000A4FD /* GameCell.swift in Sources */,
+				BAA59DC428873F2100CD3CA9 /* SortColorsViewController.swift in Sources */,
+				BA3DA73A2884A5A90000A4FD /* DataService.swift in Sources */,
 				BA3DA73C2884E9D00000A4FD /* FruitsVegetablesView.swift in Sources */,
 				BA8208902880ADDA006B44D8 /* AppDelegate.swift in Sources */,
 				BA3DA73828834DB60000A4FD /* Product.swift in Sources */,
